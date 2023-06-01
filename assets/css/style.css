@@ -105,11 +105,12 @@ button:hover {
 @media screen and (max-width: 992px) {
     body {
         flex-direction: column;
+        width: 100%;
         height: auto;
-        margin: 1rem 0;
+        padding: 1rem;
     }
 
     div {
-        width: 23rem;
+        max-width: 21rem;
     }
 }
